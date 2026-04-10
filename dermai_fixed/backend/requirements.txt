@@ -1,0 +1,36 @@
+# ── Web framework ─────────────────────────────────────────────────
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# ── Deep learning ─────────────────────────────────────────────────
+torch>=2.2.0
+torchvision>=0.17.0
+pillow>=10.2.0
+
+# ── Explainability ────────────────────────────────────────────────
+grad-cam>=1.4.8
+
+# ── Traditional ML ───────────────────────────────────────────────
+scikit-learn>=1.4.0
+scikit-image>=0.22.0
+xgboost>=2.0.0
+
+# ── LP Optimisation ──────────────────────────────────────────────
+pulp>=2.7.0
+
+# ── RAG / Vector DB ──────────────────────────────────────────────
+chromadb>=0.4.24
+sentence-transformers>=2.6.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+openai>=1.13.0
+
+# ── Dataset / HTTP ───────────────────────────────────────────────
+requests>=2.31.0
+numpy>=1.26.0
+
+# ── SHAP (traditional ML explainability) ─────────────────────────
+shap>=0.44.0
